@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+
+  <header class="header">
+      <nav class="menu">
+        <img class="logo" src="images/logo.svg" alt="logo da empresa, a palavra snap">
+        
+        <ul class="menu-nav">
+          <li class="dropdown drop1"><a href="#" class="btn-dropdown">Features</a>
+            <div class="dropdown-itens">
+              <a class="down1" href="#">Todo List</a>
+              <a class="down2" href="#">Calendar</a>
+              <a class="down3" href="#">Reminders</a>
+              <a class="down4" href="#">Planning</a>
+            </div>
+          </li>
+
+          <li class="dropdown drop2"><a href="#" class="btn-dropdown">Company</a>
+            <div class="dropdown-itens">
+              <a href="#">History</a>
+              <a href="#">Out Team</a>
+              <a href="#">Blog</a>
+            </div>
+          </li>
+
+          <li><a href="#">Careers</a></li>
+
+          <li><a href="#">About</a></li>
+
+          <div class="btn-btns mobile">
+            <button class="btns ">Login</button>
+            <button class="btns register">Register</button>
+          </div>
+        </ul>
+        <div class="btn-btns sumir">
+          <button class="btns">Login</button>
+          <button class="btns register">Register</button>
+        </div>
+
+        <div class="escureto"></div>
+
+        <div class="hamburguer">
+          <a class="hambur-aberto" href="#"><img src="images/icon-menu.svg" alt="menu hamburger"></a>
+
+          <a class="hambur-fechado" href="#"><img src="images/icon-close-menu.svg" alt="menu hamburger"></a>
+        </div>
+
+      </nav>
+  </header>
+
+  <article class="container">
+    <header class="img">
+      <img class="bg-desktop" src="images/image-hero-desktop.png" alt="imagem principal de fundo,para desktop, um homem segurando um notebook, com um fundo colorido">
+      <img class="bg-mobile" src="images/image-hero-mobile.png" alt="imagem principal de fundo,para mobile, um homem segurando um notebook, com um fundo colorido">
+    </header>
+
+    <section class="section">
+      <h1>Make remote work</h1>
+      <p>Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.</p>
+     
+        <div class="btn-btn-btn">
+          <button class="section-btn">Learn more</button>
+        </div>
+    </section>
+    
+    <footer class="footer-footer">
+      <img src="images/client-databiz.svg" alt="logo patrocinador databiz">
+      <img src="images/client-audiophile.svg" alt="patrocinador audio phile">
+      <img src="images/client-meet.svg" alt="patrocinador meet">
+      <img src="images/client-maker.svg" alt="patrocinador maker">
+    </footer>
+
+  </article>
+
+  <footer class="attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p>
+    <p> Coded by <a href="https://github.com/SirReinato" target="_blank">SirReinato</a>. </p>
+  </footer>
+<script src="js/script.js"></script>
+</body>
+</html>
