@@ -27,6 +27,7 @@ Os utilizadores devem ser capazes de o fazer:
 ![](./images/screenshots/intro.png)
 ![](./images/screenshots/mobile.png)
 ![](./images/screenshots/mobile2.png)
+![](./images/screenshots/mobile3.png)
 
 
 ### Ligações
