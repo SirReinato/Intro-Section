@@ -32,8 +32,8 @@ Os utilizadores devem ser capazes de o fazer:
 
 ### Ligações
 
-- URL da solução: [Adicione aqui o URL da solução](https://your-solution-url.com)
-- URL do sítio em directo: [Adicione aqui o URL do sítio em directo](https://your-live-site-url.com)
+- URL da solução: [Adicione aqui o URL da solução](https://github.com/SirReinato/Intro-Section#built-with)
+- URL do sítio em directo: [Adicione aqui o URL do sítio em directo](https://sirreinato.github.io/Intro-Section/)
 
 ## O meu processo
 
